@@ -1,0 +1,53 @@
+body{
+    background: linear-gradient(135deg, #0a0f24, #111a3b, #0f0f0f);
+    background-size: 300% 300%;
+}
+
+h2{
+    color: rgb(254, 254, 254);
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 0 0 20px #d7a5fa;
+}
+.tab{
+    border: #f3f0f0;
+    padding: 30px;
+}
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+ 
+}
+
+thead,
+tfoot {
+  background-color: rgb(237, 245, 228);
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(212, 221, 212);
+}
+tbody > tr:nth-of-type(odd) {
+  background-color: rgb(221, 219, 212);
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
+}
