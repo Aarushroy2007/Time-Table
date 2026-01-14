@@ -1,25 +1,29 @@
 body{
     background: linear-gradient(135deg, #0a0f24, #111a3b, #0f0f0f);
     background-size: 300% 300%;
+    width: auto;
+    margin: 90px;
 }
 
+
 h2{
-    color: rgb(254, 254, 254);
-    text-align: center;
-    font-size: 30px;
-    text-shadow: 0 0 20px #d7a5fa;
+  color: rgb(254, 254, 254);
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 0 0 20px #d7a5fa;
 }
+
 .tab{
-    border: #f3f0f0;
-    padding: 30px;
+  border: #f3f0f0;
+  padding: 30px;
 }
+
 table {
   border-collapse: collapse;
   border: 2px solid rgb(140 140 140);
   font-family: sans-serif;
-  font-size: 0.8rem;
+  font-size: 15px;
   letter-spacing: 1px;
- 
 }
 
 thead,
@@ -50,4 +54,54 @@ tfoot th {
 
 tfoot td {
   font-weight: bold;
+}
+.section{
+  text-align: center;
+  margin:90px;
+}
+
+
+.f {
+  font-size: 50px;
+  margin-bottom: 80px;
+  text-shadow: 0 0 10px #00d9ff;
+}
+
+.blo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.card {
+  width: 200px;
+  padding: 40px;
+  border-radius: 15px;
+  background: rgba(115, 131, 156, 0.326);
+  backdrop-filter: blur(10px);
+  transition: 0.3s;
+  box-shadow: 0 0 20px #00d9ff;
+}
+
+.card:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 0 70px #d7a5fa;
+  width: 250px;
+}
+
+h3{
+  font-size: 25px;
+  color: rgb(248, 248, 248);
+}
+
+h4{
+  font-size: 20px;
+  color: rgb(136, 216, 202);
+}
+
+.image{
+  border-radius: 20px;
+  height:150px;
+  width:fit-content;
 }
