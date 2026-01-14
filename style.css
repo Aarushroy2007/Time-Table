@@ -61,20 +61,20 @@ tfoot td {
 }
 
 
-.f {
+.f{
   font-size: 50px;
   margin-bottom: 80px;
   text-shadow: 0 0 10px #00d9ff;
 }
 
-.blo {
+.blo{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 40px;
 }
 
-.card {
+.card{
   width: 200px;
   padding: 40px;
   border-radius: 15px;
@@ -105,3 +105,4 @@ h4{
   height:150px;
   width:fit-content;
 }
+
